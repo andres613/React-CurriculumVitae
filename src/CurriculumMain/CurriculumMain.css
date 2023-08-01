@@ -1,0 +1,118 @@
+.firstSection,
+.secondSection {
+	display: flex;
+	flex-direction: column;
+	gap: 5rem;
+}
+
+.title {
+	color: var(--primary-color);
+	font-weight: 700;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+.itemPreTitle {
+	font-size: 1.4rem;
+	color: var(--text-color);
+	font-weight: 300;
+}
+
+.itemTitle {
+	font-size: 1.6rem;
+	color: white;
+	font-weight: 500;
+	margin: 0.8rem 0;
+}
+
+.itemSubtitle {
+	font-size: 1.4rem;
+	color: var(--text-color);
+	font-weight: 400;
+}
+
+.skillsList {
+	margin-top: 1rem;
+	margin-left: 2rem;
+	line-height: 2;
+}
+
+.educarionItem {
+	margin-top: 2rem;
+}
+
+.certificationItem {
+	margin-top: 2rem;
+}
+
+.experienceItem {
+	margin-top: 2rem;
+}
+
+.interestItems {
+	margin-top: 2rem;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+.interestItem {
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	color: var(--text-color);
+}
+.interestItem svg {
+	width: 2rem;
+}
+
+
+hr {
+	grid-column: 1/-1;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 5rem;
+	margin-bottom: 1rem;
+	border: none;
+	border-top: 2px solid rgba(128, 128, 128, 0.229);
+}
+@media only screen and (max-width: 768px) {
+	hr {
+		margin: 0 auto;
+	}
+}
+
+.thirdSection > div {
+	flex: 1;
+}
+
+.thirdSection {
+	max-width: 700px;
+	width: 100%;
+	margin: 0 auto;
+	grid-column: 1/-1;
+	display: flex;
+	flex-direction: row;
+	gap: 5rem;
+}
+
+.socialItems {
+	margin-top: 2rem;
+}
+.socialItem {
+	margin-top: 1.5rem;
+	font-size: 1.5rem;
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+	justify-content: flex-start;
+	color: var(--text-color);
+}
+.socialItem:hover {
+	color: var(--primary-color);
+}
+
+

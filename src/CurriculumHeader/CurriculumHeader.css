@@ -1,0 +1,71 @@
+.profileContainer {
+    display: flex;
+    gap: 2rem;
+}
+
+.profileImg {
+    max-width: 250px;
+}
+
+.profileImg img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.profileFirstName {
+    color: white;
+    font-weight: 200;
+    font-size: clamp(2rem, 8vw, 4rem);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: -0.8rem;
+}
+
+.profileLastName {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: clamp(2.5rem, 15vw, 7rem);
+    text-transform: uppercase;
+    display: block;
+}
+
+.profileTitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.description {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.downloadBtn {
+    display: block;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+
+    text-decoration: none;
+    color: white;
+}
+
+.downloadBtn:hover {
+    color: var(--primary-color);
+}
+
+@media only screen and (max-width: 800px) {
+    .profileContainer {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+	.thirdSection {
+		flex-direction: column;
+	}
+}
+
+
